@@ -1,0 +1,9 @@
+.container-post{
+   position: absolute;
+   top: 90px;
+   left: 400px;
+    width: 550px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+}

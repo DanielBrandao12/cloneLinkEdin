@@ -1,0 +1,22 @@
+aside{
+    margin:40px 0 0 10px;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+aside div{
+    display: flex;
+    justify-content: center;
+    background-color: #b3b3c9;
+    height: 25%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+aside img{
+  margin: 40px 0;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: #b3b3c9;
+}
