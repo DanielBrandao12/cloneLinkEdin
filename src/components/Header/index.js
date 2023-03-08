@@ -18,7 +18,7 @@ function Header() {
                 </div>
                 <nav class="nav-bar">
                     <ul>
-                        <li class="links">
+                        <li class="links" >
                             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                                 width="50.000000pt" height="50.000000pt" viewBox="0 0 50.000000 50.000000"
                                 preserveAspectRatio="xMidYMid meet">
@@ -35,11 +35,11 @@ l-31 0 23 -25z"/>
                             Início
                         </li>
                         <li class="links">
-                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                            <svg class="minhaRede"  version="1.0" xmlns="http://www.w3.org/2000/svg"
                                 width="64.000000pt" height="64.000000pt" viewBox="0 0 64.000000 64.000000"
                                 preserveAspectRatio="xMidYMid meet">
 
-                                <g transform="translate(0.000000,64.000000) scale(0.100000,-0.100000)"
+                                <g  transform="translate(0.000000,64.000000) scale(0.100000,-0.100000)"
                                     fill="#000000" stroke="none">
                                     <path d="M384 500 c-47 -19 -67 -77 -42 -123 26 -50 77 -61 121 -27 49 39 42
 116 -14 145 -32 17 -36 17 -65 5z"/>
