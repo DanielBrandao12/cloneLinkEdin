@@ -31,10 +31,15 @@ li{
   
 }
 .links{
-    
+    cursor: pointer;
     text-align: center;
     width: 80px;
+   /* border-bottom: 2px solid #000000;*/
+}
+.links:hover{
     border-bottom: 2px solid #000000;
+    color: #000000;
+    
 }
 .input-search{
     width: 100%;
@@ -62,6 +67,15 @@ li img{
 }
 svg g{
     fill: #464646;
+}
+svg g:hover{
+    fill:#000000;
+}
+.minhaRede:hover{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 /*
