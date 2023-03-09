@@ -1,16 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.container-nav{
+.container-nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: #ffffff;
-   
+
 }
-.div-logo-search{
+
+.div-logo-search {
     display: flex;
     align-items: center;
 
@@ -20,37 +21,42 @@
     display: flex;
     gap: 10px;
 }
-li{
+
+li {
     display: flex;
     flex-direction: column;
     align-items: center;
     list-style: none;
-    font-size: 13px;
+    font-size: 12px;
     color: #464646;
-    
-  
+
+
 }
-.ancora{
+
+.ancora {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
     width: 80px;
     color: #464646;
-    
+
 }
-.links{
+
+.links {
     cursor: pointer;
     text-align: center;
     width: 80px;
-   /* border-bottom: 2px solid #000000;*/
+    /* border-bottom: 2px solid #000000;*/
 }
-.links:hover{
+
+.links:hover {
     border-bottom: 2px solid #000000;
     color: #000000;
-    
+
 }
-.input-search{
+
+.input-search {
     width: 100%;
     line-height: 1.75;
     font-weight: 400;
@@ -59,32 +65,54 @@ li{
     border: none;
     background-color: #eef3f8;
     border-radius: 5px;
-  
+
     padding: 0 0.8rem 0 40px;
 }
-svg{
+
+svg {
     width: 25px;
     height: 25px;
-   
-    
+
+
 }
-li img{
+
+li img {
     width: 25px;
     height: 25px;
-   border-radius: 15px;
-    
+    border-radius: 15px;
+
 }
-svg g{
+
+svg g {
     fill: #464646;
 }
-svg g:hover{
-    fill:#000000;
+
+svg g:hover {
+    fill: #000000;
 }
-.minhaRede:hover{
+
+.minhaRede:hover {
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+
+.solucao {
+    display: flex;
+
+}
+
+.solucao svg {
+    width: 16px;
+    height: 16px;
+}
+
+.promo {
+    display: flex;
+    justify-content: center;
+    color: #5d3b09;
+    text-decoration: underline;
 }
 
 /*
