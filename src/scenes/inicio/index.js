@@ -7,14 +7,15 @@ function Inicio() {
     <>
 
       <Header />
-        <main>
+      <main>
 
-          <aside class="asideLeft">
-            <div>
-              <img alt="perfil foto" src="eu.jpg" />
+        <aside class="asideLeft">
+          <div>
+            <img alt="perfil foto" src="eu.jpg" />
 
-            </div>
-          </aside>
+          </div>
+        </aside>
+        <section class="section-post">
 
           <section class="container-post">
             <div class="container-publi">
@@ -53,10 +54,26 @@ function Inicio() {
             </div>
           </section>
 
-          <aside class="asideRight">
+          <button class="button-classficar">
+            <hr />
+            <div>
+              <span>Classificar por:</span>
+              <span>Recentes</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                <path d="M8 11L3 6h10z" fill-rule="evenodd"></path>
+              </svg>
+            </div>
+          </button>
 
-          </aside>
-        </main>
+          <section class="posts">
+
+          </section>
+
+        </section>
+        <aside class="asideRight">
+
+        </aside>
+      </main>
 
     </>
   );
