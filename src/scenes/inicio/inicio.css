@@ -14,22 +14,7 @@ main{
     border-radius: 10px;
     border: 1px solid #dfdfdf;
 }
-.asideLeft div{
-    display: flex;
-    justify-content: center;
-    background-color: #b3b3c9;
-    height: 15%;
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-}
-.asideLeft img{
-  margin: 20px 0;
-    border-radius: 50px;
-    width: 70px;
-    height: 70px;
-    border: 1px solid #ffffff;
-    background-color: #b3b3c9;
-}
+
 
 .asideRight{
   
